@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d1ac6;
+    padding: 10px 40px ;
+    box-sizing: border-box;
+
+   
+}
+    
+    
+    /* Logo */
+.logo img {
+    height: 50px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+
+body {
+    background-image: url(images/background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    margin: 2px; 
+    padding-top: 20px; 
+    
+}
+
+.colour{
+    background-color: white;
+    padding-top: 2rem;
+    width: 600px;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 20px; 
+    margin-right: 2rem;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px; 
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.inputs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 9rem;
+    width: 300px;
+    margin-bottom: 20px; /* Adding space below inputs */
+    text-align: left;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+
+
+.input-details {
+    padding-right: 300px;
+    margin-bottom: 10px; 
+   
+}
+
+
+
+
+
+
+a {
+    color: blue;
+    margin-right: 2rem;
+    
+}
+
+.Forgot{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.end{
+    background-color: rgb(33, 185, 220);
+    padding: 10px;
+    margin-right:1rem ;
+    margin-bottom: px; 
+    width: 250px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.nav_log{
+    background: rgb(230, 6, 6);
+    padding: 3px;
+    
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.banner img {
+    margin-top: 4rem;
+    width: 100%; /* Full width */
+    height: 40rem; /* Maintain aspect ratio */
+    display: block; /* Remove extra space */
+}
+
+
+.home h1{
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 7rem;
+
+}
+
+.home p{
+    color: rgb(3, 3, 4);
+    background-color:rgb(206, 84, 84);
+    text-align: justify;
+    
+    
+}
